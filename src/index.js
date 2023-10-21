@@ -2,7 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {initializeApp} from 'firebase/app'
+import { getAuth, setPersistence,browserLocalPersistence,browserSessionPersistence,inMemoryPersistence } from 'firebase/auth';
+import {getDatabase} from 'firebase/database';
+import firebaseConfig from './firebaseConfig';
+
+
+const app = initializeApp(firebaseConfig);
+
+const auth = getAuth(app); // Get the auth instance
+
+await setPersistence(auth,browserLocalPersistence) // Set persistence
+
+const database = getDatabase(app); // Get the database instance
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +24,5 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
