@@ -6,8 +6,8 @@
     Display Recipes: Search results are displayed with images and titles.
     Clickable Recipes: Users can click on a recipe to view its details.
 
-    ![Image Alt text](public/images/homepage1.jpg)
-    ![Image Alt text](public/images/homepage2.jpg)
+    ![Image Alt text](images/homepage1.jpg)
+    ![Image Alt text](images/homepage2.jpg)
 
     RecipeDetails Component
     The "RecipeDetails" component is a React-based recipe information display page designed for viewing the details of a specific recipe.
@@ -18,19 +18,19 @@
     Instructions: Present step-by-step cooking instructions and a summary of the recipe.
     Wishlist Functionality: Allow users to add or remove recipes from their wishlist using a heart-shaped button. The button's color changes to red when the recipe is added to the wishlist.
 
-    ![Image Alt text](public/images/recipePage.jpg)
-    ![Image Alt text](public/images/recipeImage.jpg)
+    ![Image Alt text](images/recipePage.jpg)
+    ![Image Alt text](images/recipeImage.jpg)
 
     Sign-In and Sign-Up Component
 
-    ![Image Alt text](public/images/signIn.jpg)
-    ![Image Alt text](public/images/signUp.jpg)
+    ![Image Alt text](images/signIn.jpg)
+    ![Image Alt text](images/signUp.jpg)
 
     Wishlist Component
 
     View the Recipe and later on we can delete the recipe. From there if we click the image of the recipe it will take you to the recipe details page.
 
-    ![Image Alt text](public/images/wishList.jpg)
+    ![Image Alt text](images/wishList.jpg)
 
     Note:
 
