@@ -6,7 +6,7 @@
     Display Recipes: Search results are displayed with images and titles.
     Clickable Recipes: Users can click on a recipe to view its details.
 
-    ![Image Alt Text](https://imgur.com/a/IQE3l5K)
+    ![alt text](public/images/homepage1.jpg?raw=true)
     ![Image Alt Text](images/homepage2.jpg)
 
     RecipeDetails Component
