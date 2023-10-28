@@ -6,8 +6,8 @@
     Display Recipes: Search results are displayed with images and titles.
     Clickable Recipes: Users can click on a recipe to view its details.
 
-    ! [Alt text](images/homepage1.jpg)
-    ![Image Alt Text](images/homepage2.jpg)
+    ![Alt text](/images/homepage1.jpg)
+    ![Alt Text](/images/homepage2.jpg)
 
     RecipeDetails Component
     The "RecipeDetails" component is a React-based recipe information display page designed for viewing the details of a specific recipe.
